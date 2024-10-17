@@ -1,7 +1,7 @@
 #!/bin/bash
 
 << note
-This scripts backup of any destination path given in an argument
+This scripts backup of any destination path given in an argument with functions
 ./backup.sh /home/ubuntu/scripts
 And we will add cron for it
 note
