@@ -9,7 +9,7 @@ while true; do
 read -p "Enter a line of text: ( the user presses Enter without any text )" input
 
 #Checking if user gives input or not, Exit if the user enters an empty string
-if [ -z $input ]; then
+if [ -z $input ]; then  #-z option in checks if a string is empty.
         echo "Exited the Interactive Explorer."
         break
 fi
