@@ -15,11 +15,11 @@ if [ -z $input ]; then  #-z option in checks if a string is empty.
 fi
 
 #Char count from user input
-char_count=$(echo -n $input | wc -m)
+count=$(echo -n $input | wc -m)
 
 # The echo -n command prints the value of the variable input without adding a newline at the end.
 #wc -m: wc stands for word count, but with the -m option, it counts the number of characters in the input.
 
-echo "Character count is : $char_count"
+echo "Character count is : $count"
 
 done
